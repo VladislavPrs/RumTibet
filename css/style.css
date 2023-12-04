@@ -4,14 +4,14 @@
   font-family: "Next Art";
   font-style: normal;
   font-weight: 700;
-  src: local("Next Art"), url("/fonts/NEXT_ART_Bold.ttf") format("truetype");
+  src: local("Next Art"), url("../fonts/NEXT_ART_Bold.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
   font-family: "Next Art";
   font-style: normal;
   font-weight: 400;
-  src: local("Next Art"), url("/fonts/NEXT_ART_Regular.otf") format("opentype");
+  src: local("Next Art"), url("../fonts/NEXT_ART_Regular.otf") format("opentype");
   font-display: swap;
 }
 /*Обнуление*/
