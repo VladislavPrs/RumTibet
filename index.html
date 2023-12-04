@@ -1,0 +1,343 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>РумТибет</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="./css/swiper.css">
+		<link rel="stylesheet" href="./css/null.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="import" href="./404.html">
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__content">
+						<a class="header__logo" href="./index.html"><img src="./img/main_images/header/headerLogo.svg" alt="#"></a>
+						<div class="header__menu">
+							<nav class="header__nav">
+								<ul class="header__elements">
+									<li class="header__element"><a href="./404.html">Главная</a></li>
+									<li class="header__element"><a href="./404.html">Про гида</a></li>
+									<li class="header__element"><a href="./404.html">Программа тура</a></li>
+									<li class="header__element"><a href="./404.html">Стоимость</a></li>
+									<li class="header__element"><a href="./404.html">Блог</a></li>
+									<li class="header__element"><a href="./404.html">Контакты</a></li>
+								</ul>
+							</nav>
+							<a href="./404.html" class="header__button">Консультация</a>
+						</div>
+						<div class="header__menu-burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__registration registration">
+					<div class="registration__background"></div>
+					<div class="registration__container">
+						<div class="registration__content">
+							<h1 class="registration__title">Насладись прогулкой в горах<br> с командой единомышленников</h1>
+							<form action="#" method="post" name="form" class="registration__form form">
+								<div class="form__main">
+									<div class="form__element">
+										<select name="form__locations" id="form__locations" class="form__locations locations form-style">
+											<option value="" class="locations__element">Локации для тура</option>
+											<option value="location1" class="locations__element">Локация1</option>
+											<option value="location2" class="locations__element">Локация2</option>
+											<option value="location3" class="locations__element">Локация3</option>
+										</select>
+										<div class="form__tip">выберите из списка</div>
+									</div>
+									<div class="form__element">
+										<input type="date" id="form__date" name="form__date" class="form__date form-style">
+										<div class="form__tip">укажите диапазон</div>
+									</div>
+									<div class="form__element">
+										<select name="form__participants" id="form__participants" class="form__participants participants form-style">
+											<option value="" class="participants__element">Участники</option>
+											<option value="participant1" class="participants__element">Участники1</option>
+											<option value="participant2" class="participants__element">Участники2</option>
+											<option value="participant3" class="participants__element">Участники3</option>
+										</select>
+										<div class="form__tip">минимум 4 человека</div>
+									</div>
+									<input type="submit" value="Найти программу" id="form__button" class="form__button">
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section class="page__about-hike about-hike">
+					<div class="about-hike__container">
+						<div class="about-hike__content">
+							<div class="about-hike__images about-images">
+								<div class="about-images__image block-image"><img src="./img/main_images/about-hike/back-image.webp" alt="#"></div>
+								<div class="about-images__video block-image">
+									<video id="videoAboutHike" loop poster="./img/main_images/about-hike/front-image.webp" preload="auto">
+										<source src="./video/About-hike_nature.mp4" type="video/mp4">
+									</video>
+								</div>
+							</div>
+							<div class="about-hike__main about-main">
+								<h4 class="about-main__subtitle">о нашем походе</h4>
+								<h2 class="about-main__title">Исследуйте все горные массивы мира вместе с нами</h2>
+								<p class="about-main__text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="./404.html" class="about-main__button">Программа тура</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__programs programs">
+					<div class="programs__container">
+						<div class="programs__content">
+							<div class="programs__main">
+								<h4 class="programs__subtitle">наше предложение</h4>
+								<h2 class="programs__title">Лучшие программы для тебя</h2>
+								<p class="programs__text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+								<div class="programs__properties">
+									<div class="programs__property property">
+										<img class="property__icon" src="./img/icons/programs/Опытный_гид.svg" alt="#">
+										<div class="property__main">
+											<h3 class="property__title">Опытный гид</h3>
+											<p class="property__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+										</div>
+									</div>
+									<div class="programs__property property">
+										<img class="property__icon" src="./img/icons/programs/Безопасный_поход.svg" alt="#">
+										<div class="property__main">
+											<h3 class="property__title">Безопасный поход</h3>
+											<p class="property__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+										</div>
+									</div>
+									<div class="programs__property property">
+										<img class="property__icon" src="./img/icons/programs/Лояльные_цены.svg" alt="">
+										<div class="property__main">
+											<h3 class="property__title">Лояльные цены</h3>
+											<p class="property__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+										</div>
+									</div>
+								</div>
+								<a href="./404.html" class="programs__button">Стоимость программ</a>
+							</div>
+							<div class="programs__cards">
+								<div class="programs__card"><img src="./img/main_images/programs/first.webp" alt="#"></div>
+								<div class="programs__card"><img src="./img/main_images/programs/second.webp" alt="#"></div>
+								<div class="programs__card"><img src="./img/main_images/programs/third.webp" alt="#"></div>
+								<div class="programs__card"><img src="./img/main_images/programs/fourth.webp" alt="#"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__directions directions">
+					<div class="directions__container">
+						<div class="directions__content">
+							<h4 class="directions__subtitle">по версии отдыхающих</h4>
+							<h2 class="directions__title">Популярные направления</h2>
+							<div class="directions__swiper swiper swiper-directions" data-mobile="false">
+								<div class="directions__cards swiper-wrapper">
+									<a href="./404.html" class="directions__card card-directions slide">
+										<img class="card-directions__background" src="./img/main_images/discraptions/background1.webp" alt="#">
+										<div class="card-directions__score">4.8</div>
+										<div class="card-directions__content">
+											<div class="card-directions__text">
+												<h3 class="card-directions__title">Озеро возле гор</h3>
+												<p class="card-directions__description">романтическое приключение</p>
+											</div>
+											<div class="card-directions__price">480 $</div>
+										</div>
+										<div class="card-directions__blur"></div>
+									</a>
+									<a href="./404.html" class="directions__card card-directions slide">
+										<img class="card-directions__background" src="./img/main_images/discraptions/background2.webp" alt="#">
+										<div class="card-directions__score">4.5</div>
+										<div class="card-directions__content">
+											<div class="card-directions__text">
+												<h3 class="card-directions__title">Ночь в горах</h3>
+												<p class="card-directions__description">в компании друзей</p>
+											</div>
+											<div class="card-directions__price">500 $</div>
+										</div>
+										<div class="card-directions__blur"></div>
+									</a>
+									<a href="./404.html" class="directions__card card-directions slide">
+										<img class="card-directions__background" src="./img/main_images/discraptions/background3.webp" alt="#">
+										<div class="card-directions__score">5.0</div>
+										<div class="card-directions__content">
+											<div class="card-directions__text">
+												<h3 class="card-directions__title">Йога в горах</h3>
+												<p class="card-directions__description">для тех, кто забоится о себе</p>
+											</div>
+											<div class="card-directions__price">230 $</div>
+										</div>
+										<div class="card-directions__blur"></div>
+									</a>
+								</div>
+							</div>
+							<a href="./404.html" class="directions__button">Рейтинг направлений</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__blog blog">
+					<div class="blog__container">
+						<div class="blog__content">
+							<h4 class="blog__subtitle">делимся впечатлениями</h4>
+							<h2 class="blog__title">Блог о путешествиях</h2>
+							<div class="blog__swiper swiper swiper-blog" data-mobile="false">
+								<div class="blog__cards swiper-wrapper">
+									<a href="./404.html" class="blog__card card-blog slide">
+										<div id="card-blog__imageItaly" class="card-blog__image"><img src="./img//main_images/blog/italy.webp" alt="#"></div>
+										<div class="card-blog__content">
+											<h3 class="card-blog__title">Красивая Италия, какая она в реальности?</h3>
+											<p class="card-blog__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+											<div class="card-blog__parametrs">
+												<div class="card-blog__date">01/04/2023</div>
+												<div class="card-blog__read-more">читать статью</div>
+											</div>
+										</div>
+									</a>
+									<a href="./404.html" class="blog__card card-blog slide">
+										<div id="card-blog__imageWorld" class="card-blog__image"><img src="./img/main_images/blog/world.webp" alt="#"></div>
+										<div class="card-blog__content">
+											<h3 class="card-blog__title">Долой сомнения! Весь мир открыт для вас!</h3>
+											<p class="card-blog__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих усл...</p>
+											<div class="card-blog__parametrs">
+												<div class="card-blog__date">01/04/2023</div>
+												<div class="card-blog__read-more">читать статью</div>
+											</div>
+										</div>
+									</a>
+									<a href="./404.html" class="blog__card card-blog slide">
+										<div id="card-blog__imageSimple" class="card-blog__image"><img src="./img/main_images/blog/single.webp" alt="#"></div>
+										<div class="card-blog__content">
+											<h3 class="card-blog__title">Как подготовиться к путешествию в одиночку?</h3>
+											<p class="card-blog__text">Для современного мира базовый вектор развития предполагает.</p>
+											<div class="card-blog__parametrs">
+												<div class="card-blog__date">01/04/2023</div>
+												<div class="card-blog__read-more">читать статью</div>
+											</div>
+										</div>
+									</a>
+									<a href="./404.html" class="blog__card card-blog slide">
+										<div id="card-blog__imageIndia" class="card-blog__image"><img src="./img/main_images/blog/india.webp" alt="#"></div>
+										<div class="card-blog__content">
+											<h3 class="card-blog__title">Индия ... летим?</h3>
+											<p class="card-blog__text">Для современного мира базовый.</p>
+											<div class="card-blog__parametrs">
+												<div class="card-blog__date">01/04/2023</div>
+												<div class="card-blog__read-more">читать статью</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<a href="./404.html" class="blog__button">Другие материалы</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__gallery gallery">
+					<div class="gallery__container">
+						<div class="gallery__content">
+							<h4 class="gallery__subtitle">фото-отчет</h4>
+							<h3 class="gallery__title">Делимся впечатлениями</h3>
+							<div class="gallery__swiper swiper swiper-gallery" data-mobile="false">
+								<ul class="gallery__blocks swiper-wrapper">
+									<li class="gallery__block gallery_block_big slide"><img src="./img/main_images/gallery/one_big.webp" alt="#"></li>
+									<li class="gallery__block slide"><img src="./img/main_images/gallery/two.webp" alt="#"></li>
+									<li class="gallery__block slide"><img src="./img/main_images/gallery/three.webp" alt="#"></li>
+									<li class="gallery__block slide"><img src="./img/main_images/gallery/four.webp" alt="#"></li>
+									<li class="gallery__block gallery_block_big slide"><img src="./img/main_images/gallery/five_big.webp" alt="#"></li>
+									<li class="gallery__block slide"><img src="./img/main_images/gallery/six.webp" alt="#"></li>
+								</ul>
+							</div>
+							<a href="./404.html" class="gallery__button">Наш pinterest</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__mailing mailing">
+					<div class="mailing__container">
+						<div class="mailing__position">
+							<div class="mailing__content">
+								<div class="mailing__titles">
+									<h4 class="mailing__subtitle">актуально</h4>
+									<h3 class="mailing__title">Получайте полезные рассылки о путешествиях</h3>
+								</div>
+								<form action="#" class="mailing__form form-mailing">
+									<fieldset class="form-mailing__field">
+										<legend class="form-mailing__title">Введите e-mail адрес</legend>
+										<div class="form-mailing__mail">
+											<input class="form-mailing__input" required placeholder="name@domain.com" type="text">
+											<a href="./404.html" class="form-mailing__button">Подписаться на новости</a>
+										</div>
+									</fieldset>
+									<p class="form-mailing__requirement">подписываясь на новости, вы автоматически соглашаетесь с <a href="#">условиями обработки персональных данных </a> и <a href="#">правилами рекламных рассылок</a></p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__content">
+						<div class="footer__contacts contacts-footer">
+							<h3 class="contacts-footer__title footer__title">Компания «РумТибет»</h3>
+							<p class="contacts-footer__text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</p>
+							<ul class="contacts-footer__contacts">
+								<li><a href="mailto:info@domain.com" class="contacts-footer__mail">info@domain.com</a></li>
+								<li><a href="tel:+71234567890" class="contacts-footer__telephone">+7 (123) 456-78-90</a></li>
+							</ul>
+							<ul class="contacts-footer__socials">
+								<li class="contacts-footer__social"><a href="./404.html"><img src="./img/icons/footer/social/telegram.svg" alt="#"></a></li>
+								<li class="contacts-footer__social"><a href="./404.html"><img src="./img/icons/footer/social/vk.svg" alt="#"></a></li>
+								<li class="contacts-footer__social"><a href="./404.html"><img src="./img/icons/footer/social/pinterest.svg" alt="#"></a></li>
+								<li class="contacts-footer__social"><a href="./404.html"><img src="./img/icons/footer/social/skype.svg" alt="#"></a></li>
+							</ul>
+						</div>
+						<div class="footer__services services-footer">
+							<div class="services-footer__title footer__title">Наши услуги</div>
+							<ul class="services-footer__links footer__links">
+								<li class="services-footer__link footer__link"><a href="./404.html">Прогулки в горы летом</a></li>
+								<li class="services-footer__link footer__link"><a href="./404.html">Зимние походы в горы</a></li>
+								<li class="services-footer__link footer__link"><a href="./404.html">Посещение храмов в горах</a></li>
+								<li class="services-footer__link footer__link"><a href="./404.html">Экстремальные виды туризма</a></li>
+								<li class="services-footer__link footer__link"><a href="./404.html">Походы в джунглях Амазонии <span>new</span></a></li>
+								<li class="services-footer__link footer__link"><a href="./404.html">Поездка в Африку</a></li>
+							</ul>
+						</div>
+						<div class="footer__for-traveling for-traveling-footer">
+							<div class="for-traveling-footer__title footer__title">Важно для путешествий</div>
+							<ul class="for-traveling-footer__links footer__links">
+								<li class="for-traveling-footer__link footer__link"><a href="./404.html">Как собрать в долгий поход?</a></li>
+								<li class="for-traveling-footer__link footer__link"><a href="./404.html">Жизненно важные предметы для похода</a></li>
+								<li class="for-traveling-footer__link footer__link"><a href="./404.html">Медицинская страховка, гарантии безопасности</a></li>
+								<li class="for-traveling-footer__link footer__link"><a href="./404.html">Если вы врач - загляните сюда</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__container">
+						<div class="copyright-footer__content">
+							<div class="copyright-footer__owner">ИП Константинопольский К.К., 2023</div>
+							<div class="copyright-footer__processing-policy"><a href="./404.html">Политика обработки персональных данных</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	<script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+	</body>
+</html>
